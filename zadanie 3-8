@@ -1,0 +1,17 @@
+#!/bin/bash
+
+modulus() {
+    echo "$1 % $2" | bc
+}
+
+echo "1697 % 13 = $(modulus 1697 13)"
+echo "1697 modulo 13 = $(modulus 1697 13)"
+
+echo "772 % -45 = $(modulus 772 -45)"
+echo "772 modulo -45 = $(modulus 772 -45)"
+
+echo "-568 % 12 = $(modulus -568 12)"
+echo "-568 modulo 12 = $(modulus -568 12)"
+
+echo "-5437 % -17 = $(modulus -5437 -17)"
+echo "-5437 modulo -17 = $(modulus -5437 -17)"
