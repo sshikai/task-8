@@ -1,0 +1,17 @@
+#!/bin/bash 
+num1=25649 
+num2=-9154 
+ 
+shift_right_1=$((num1 >> 3)) 
+shift_left_1=$((num1 << 2)) 
+ 
+shift_right_2=$((num2 >> 4)) 
+shift_left_2=$((num2 << 3)) 
+ 
+echo "Для числа $num1:" 
+echo "Сдвиг вправо на 3: $shift_right_1" 
+echo "Сдвиг влево на 2: $shift_left_1" 
+ 
+echo "Для числа $num2:" 
+echo "Сдвиг вправо на 4: $shift_right_2" 
+echo "Сдвиг влево на 3: $shift_left_2"
